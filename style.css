@@ -1,0 +1,46 @@
+#newButton {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    height: 36px;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 10px;
+    transition: opacity 0.15s;
+    align-self: center;
+    white-space: nowrap;
+    
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+}
+
+#newButton:hover {
+    opacity: 0.5;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.square {
+    background-color: black;
+    border: solid;
+    border-width: 0.5px;
+    border-color: white;
+}
+
+.square.hovered {
+    background-color: white;
+}
