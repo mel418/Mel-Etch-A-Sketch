@@ -1,4 +1,4 @@
-#newButton {
+button {
     background-color: white(200, 0, 0);
     color: black;
     border: solid 1px;
@@ -7,7 +7,8 @@
     border-color: black;
     cursor: pointer;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-right: 25px;
     transition: opacity 0.15s;
     align-self: center;
     white-space: nowrap;
@@ -37,6 +38,9 @@ h1 {
     flex-wrap: wrap;
     width: 600px;
     margin: auto;
+    border: solid;
+    border-width: 2px;
+    box-shadow: 0 0 20px black;
 }
 
 .square {
@@ -44,7 +48,7 @@ h1 {
     height: 60px;
     background-color: black;
     border: solid;
-    border-width: 0.5px;
+    border-width: 1px;
     border-color: white;
 }
 
