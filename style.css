@@ -1,23 +1,31 @@
 #newButton {
-    background-color: rgb(200, 0, 0);
-    color: white;
-    border: none;
+    background-color: white(200, 0, 0);
+    color: black;
+    border: solid 1px;
     height: 36px;
     border-radius: 2px;
+    border-color: black;
     cursor: pointer;
     padding: 10px;
+    margin-bottom: 10px;
     transition: opacity 0.15s;
     align-self: center;
     white-space: nowrap;
     
 }
 
-.center {
+
+
+.center, h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     width: 50%;
+}
+
+h1 {
+    margin-bottom: 10px;
 }
 
 #newButton:hover {
@@ -27,14 +35,13 @@
 #container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     width: 600px;
-    justify-content: center;
-    align-items: center;
     margin: auto;
 }
 
 .square {
+    width: 60px;
+    height: 60px;
     background-color: black;
     border: solid;
     border-width: 0.5px;

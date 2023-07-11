@@ -4,7 +4,7 @@ let gridSize = 16;
 function newGrid() {
     container.innerHTML = '';
     
-    const squareSize = 600/(gridSize + 1);
+    const squareSize = (600/(gridSize)-2);
 
     for (let i = 0; i < gridSize*gridSize; i++) {
         const square = document.createElement('div');
@@ -16,9 +16,9 @@ function newGrid() {
             square.classList.add('hovered');
         })
     
-        square.addEventListener('mouseout', () => {
-            square.classList.remove('hovered');
-        })
+        // square.addEventListener('mouseout', () => {
+        //     square.classList.remove('hovered');
+        // })
     
         container.appendChild(square);
     }
