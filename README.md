@@ -3,7 +3,7 @@
 Welcome to **Mel's Etch-A-Sketch**, a digital take on the classic Etch-A-Sketch toy. This interactive drawing app lets you sketch using your mouse, reset the grid, or change the grid size.
 
 ### Live Demo
-You can try the app by visiting the deployed version [Mel's Etch a Sketch](https://mel418.github.io/Mel-Etch-A-Sketch/).
+You can try the app by visiting the deployed version <a href="https://mel418.github.io/Mel-Etch-A-Sketch/" target="_blank">Mel's Etch a Sketch</a>.
 
 ### Features:
 - **Draw on the grid**: Hover or click on the grid squares to draw.
